@@ -16,13 +16,8 @@
 
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	
+	<link href=css/style.css" rel="stylesheet">
 
 </head>
 
@@ -63,6 +58,9 @@
     <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
+		<div class="container-fluid pagetop" style="background: url(topo.jpg) center;">
+		<img class="img-responsive center-block" scr="Paisagem.jpg" heigth="100%" width="100%">
+		</div>
             <div class="container">
                 <h1>Minha Página PHP</h1>
                 <h2>Amanda Carvalho</h2>
@@ -76,28 +74,45 @@
         <hr class="featurette-divider">
 
         <!-- First Featurette -->
+		
+		// <? php 
+		
+			//include_once(projetos.php); 
+		
+		// ?>
         <div class="featurette" id="about">
             <img class="featurette-image img-circle img-responsive pull-right" src="passarinho.jpg" heigth="500" width="500">
             <h2 class="featurette-heading">Projetos
-                <span class="text-muted">Will Catch Your Eye</span>
+                <span class="text-muted">Os melhores projetos</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! 
+			Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
+			Delegadis gente finis, bibendum egestas augue arcu ut est. Cevadis im ampola pa arma uma pindureta. 
+			A ordem dos tratores não altera o pão duris. Mé faiz elementum girarzis, nisi eros vermeio. 
+			Diuretics paradis num copo é motivis de denguis. Paisis, filhis, espiritis santis.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
+		
+		<!-- include_once(conteudo.php); -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="passarinho.jpg" heigth="500" width="500">
             <h2 class="featurette-heading">Conteúdo
-                <span class="text-muted">Is Pretty Cool Too.</span>
+                <span class="text-muted">Encontre o conteúdo da Página aqui</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Mussum Ipsum, cacilds vidis litro abertis. 
+			Suco de cevadiss deixa as pessoas mais interessantis. 
+			Diuretics paradis num copo é motivis de denguis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. 
+			Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis..</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
+		
+		<!-- include_once(faleconosco.php); --> 
         <div class="featurette" id="contact">
             <h2 class="featurette-heading">Contato </br>
                 <span class="text-muted">Mande para a gente a sua mensagem!</span>
@@ -127,6 +142,12 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
+						<div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="assunto">Assunto</label>
+                                <textarea rows="1" class="form-control" placeholder="Assunto" id="assunto" required="" data-validation-required-message="Por favor, informe o assunto."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label for="message">Menssage</label>
@@ -143,7 +164,7 @@
                         </div>
                     </form>
                 </div>
-        </div>
+        </div> 
 
         <hr class="featurette-divider">
 

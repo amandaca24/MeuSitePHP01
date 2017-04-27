@@ -12,7 +12,6 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: Paisagem.jpg no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -53,6 +52,7 @@ body {
 
 .featurette-heading {
     font-size: 50px;
+	font-color: red;
 }
 
 footer {
