@@ -2,21 +2,10 @@
 
 	$conexao = mysqli_connect("localhost", "root", "");
 	
-	if($conexao){
-		echo "Conexão feita com sucesso<br>";
-	}else{
-		echo "Conexão falhou";
-	}
 	
 	// conectando ao BD selecionado 
 	
 	$db = mysqli_select_db($conexao, "meusite");
-	
-	if($db){
-		echo "Banco selecionado com sucesso";
-	}else{
-		echo "Banco de dados não selecionado";
-	}
 	
 	/*
 	$query = mysqli_query(
@@ -38,16 +27,6 @@
 	$query = mysqli_query(
 		$conexao, "SELECT * FROM faleconosco"
 	);
-		
-	while($tabela = mysqli_fetch_array($query)){
-		
-		echo $tabela['nome'] ."<br>";
-		echo $tabela['email']."<br>";
-		echo $tabela['telefone']."<br>";
-		echo $tabela['assunto']."<br>";
-		echo $tabela['mensagem'];
-		
-	}
 	
 
 ?>
