@@ -1,5 +1,5 @@
-.topo{
-	background-image: ../Paisagem.jpg;
+.headline{
+	background-image: url(../Paisagem.jpg);
 	display: block;
     width: 100%;
     text-align: center;
