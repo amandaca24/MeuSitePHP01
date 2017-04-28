@@ -1,9 +1,9 @@
 <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="passarinho.jpg" heigth="500" width="500">
-            <h2 class="featurette-heading">Conteúdo
-                <span class="text-muted">Encontre o conteúdo da Página aqui</span>
-            </h2>
-            <p class="lead">Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis. 
+        <img class="featurette-image img-circle img-responsive pull-left" src="passarinho.jpg" heigth="500" width="500">
+        <h2 class="featurette-heading">Conteúdo
+        <span class="text-muted">Encontre o conteúdo da Página aqui</span>
+        </h2>
+        <p class="lead">Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis. 
 			Cevadis im ampola pa arma uma pindureta. 
 			Aenean aliquam molestie leo, vitae iaculis nisl. Casamentiss faiz malandris se pirulitá.
 			Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. 
@@ -18,4 +18,4 @@
 			Sed non ipsum felis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. 
 			Manduma pindureta quium dia nois paga. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. 
 			Sapien in monti palavris qui num significa nadis i pareci latim.</p>
-        </div>
+</div>

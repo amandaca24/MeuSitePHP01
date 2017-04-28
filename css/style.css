@@ -1,8 +1,8 @@
-.pagetop {
+.topo{
+	background-image: ../Paisagem.jpg;
 	display: block;
     width: 100%;
     text-align: center;
-    background: Paisagem.jpg no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

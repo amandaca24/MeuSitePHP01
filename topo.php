@@ -1,13 +1,11 @@
-<div>
-	<header class="header-image">
+  <!-- Full Width Image Header -->
+    <header class="topo">
         <div class="headline">
+		<div class="container-fluid pagetop" style="background: url(topo.jpg) center;">
+		</div>
             <div class="container">
-				<center-left><img src="Paisagem.jpg" height="80%" width="80%"/></center-left>
                 <h1>Minha Página PHP</h1>
-               
+                <h2>Amanda Carvalho</h2>
             </div>
         </div>
     </header>
-
-	
-</div>

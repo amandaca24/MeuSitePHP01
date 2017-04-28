@@ -1,4 +1,5 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -14,13 +15,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="conteudo.php">Sobre Nós</a>
+                        <a href="#about">Projetos</a>
                     </li>
                     <li>
-                        <a href="projetos.php">Projetos</a>
+                        <a href="#services">Conteúdo</a>
                     </li>
                     <li>
-                        <a href="faleconosco.php">Fale Conosco</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </div>
