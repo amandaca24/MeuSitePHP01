@@ -8,7 +8,7 @@ while($dados=mysqli_fetch_array($busca)){
     
 ?>
 
-<form class="form-horizontal col-xs-8 col-xs-push-2" action="?pg=admin/alterardb" method="post">
+<form class="form-horizontal col-xs-8 col-xs-push-2" action="?pg=alterardb" method="post">
     <input type="hidden" name="id" value="<?=$dados['id'];?>"> 
 <table>
 	<div class="form-group">

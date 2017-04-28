@@ -7,7 +7,7 @@ $texto = $_POST['texto'];
 $sql = "INSERT INTO admin VALUES 
 ('', '$titulo', '$subtitulo', '$texto')";
 
-echo $sql;
+//echo $sql;
 
 $insert = mysqli_query($conexao, $sql);
 
